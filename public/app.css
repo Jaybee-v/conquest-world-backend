@@ -21,6 +21,39 @@ h1{
     color: var(--text-global);
 }
 
+label{
+    margin: 10px 0;
+}
+
+input{
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 6px;
+    box-shadow: none;
+    border: none;
+}
+
+.btnDefault{
+    background: #c91414c5;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    color: var(--background);
+    transition: ease-in-out;
+    cursor: pointer;
+}
+.btnDefault:hover{
+background: #c91414;
+color: #fff;
+font-weight: 800;
+}
+
+.Col-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .Card{
     background: var(--background-card);
